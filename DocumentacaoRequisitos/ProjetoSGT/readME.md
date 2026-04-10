@@ -49,7 +49,7 @@ O SGT será uma aplicação web responsiva com sincronização em nuvens.
 
 **Critérios de Aceitação**:
 
--[ ] Formulário com Campos Obrigatório (títlo) e Opcinais
+- [ ] Formulário com Campos Obrigatório (títlo) e Opcinais
 - [ ] Validação de data (não permitir datas passadas)
 - [ ] Níveis de prioridade: Baixa, Média, Alta
 - [ ] Confirmação Visual após criação
@@ -114,7 +114,7 @@ Infográfico de Rastreabilidade do Requisito
 
 graph LR
 
-    NS001["NS-001: Necessidade Stakeholder"] --> RF001[:"RF-001: Criação Tarefas"]
- RF001 --> TC001["TC-001: Teste de Criação"]
+    NS001["NS-001: Necessidade Stakeholder"] --> RF001["RF-001: Criação Tarefas"]
+    RF001 --> TC001["TC-001: Teste de Criação"]
 
 ```
