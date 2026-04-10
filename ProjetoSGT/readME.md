@@ -86,7 +86,12 @@ O SGT será uma aplicação web responsiva com sincronização em nuvens.
 *Versão**: 1.0
 **Métrica**: Tempo de Resposta < 1s para 95% das requisiçoes.
 
+- [ ] Usuário pode alterar a tarefa para concluída
+- [ ] tarefas podem retornar para não concluídas
+- [ ] Visualização filtrada por status (concluídas e não-concluídas)
+
 ---
+
 
 #### RNF-002: Segurança 
 
@@ -103,8 +108,8 @@ O SGT será uma aplicação web responsiva com sincronização em nuvens.
 
 | Versão | Data | Autor | Modificação |
 |--------|------|-------|-------------|
-| 1.0 |2026-03-27 | Equipe de Análise | Versão inicial de documento |
-
+| 1.0 | 2026-03-27 | Equipe de Análise | Versão inicial de documento |
+| 1.1 | 2026-04-10 | Equipe de Desenvolvimento | Inclusão da RF-003 |
 
 ### 4.2 Rastreabilidade
 
@@ -118,3 +123,14 @@ graph LR
     RF001 --> TC001["TC-001: Teste de Criação"]
 
 ```
+
+
+## 5. Aprovação 
+
+Matriz de Aprovação
+
+| Alteração | Data | Autor | Aprovador |
+| -   | - | - | - |
+| 1.0 | 2026-03-27 | Equipe de Análise | Stakeholder |
+| 1.0 | 2026-03-27 | Equipe de Análise | Stakeholder |
+| 1.1 | 2026-04-10 | Equipe de Desenvolvimento | Equipe de Análise |
